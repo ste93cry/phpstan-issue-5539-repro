@@ -6,8 +6,7 @@ namespace App;
 
 class FooV1 implements FooInterface
 {
-    public function test(): bool
+    public function test(): void
     {
-        return false;
     }
 }
